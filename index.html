@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labiba Mansur | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #020617; color: #f1f5f9; scroll-behavior: smooth; }
+        .glass { background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .accent-gradient { background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-bg { background: radial-gradient(circle at top right, #1e293b, #020617); }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 glass py-4 px-8 flex justify-between items-center">
+        <div class="font-black tracking-tighter text-xl">LM<span class="text-sky-400">.</span></div>
+        <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-gray-400">
+            <a href="#about" class="hover:text-white transition">About</a>
+            <a href="#experience" class="hover:text-white transition">Experience</a>
+            <a href="#projects" class="hover:text-white transition">Projects</a>
+            <a href="#leadership" class="hover:text-white transition">Leadership</a>
+            <a href="#contact" class="hover:text-white transition">Contact</a>
+        </div>
+    </nav>
+
+    <header id="about" class="min-h-screen flex flex-col justify-center px-8 md:px-24 hero-bg">
+        <div class="max-w-4xl">
+            <span class="text-sky-400 font-mono tracking-widest uppercase text-sm mb-4 block">Future Aerospace Engineer</span>
+            <h1 class="text-5xl md:text-8xl font-black leading-tight mb-6">Labiba <span class="accent-gradient">Mansur</span></h1>
+            <p class="text-lg md:text-xl text-gray-400 leading-relaxed max-w-2xl">
+                MAI Engineering Student @ Trinity College Dublin. 
+                <span class="text-white">UNITECH Scholar & J&J WiSTEM2D Scholar.</span> 
+                Specializing in mechanical design, UAV structures, and sustainable energy systems.
+            </p>
+            <div class="mt-10 flex flex-wrap gap-4">
+                <a href="#projects" class="bg-white text-black px-8 py-3 rounded-md font-bold hover:bg-sky-400 hover:text-white transition">View Projects</a>
+                <a href="https://github.com/labibamansur" class="glass px-8 py-3 rounded-md font-bold flex items-center gap-2 hover:bg-white/5 transition"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="py-24 px-8 md:px-24 bg-slate-950">
+        <div class="grid lg:grid-cols-2 gap-16">
+            
+            <div>
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-3"><i class="fas fa-graduation-cap text-sky-400 text-2xl"></i> Education</h2>
+                <div class="space-y-8">
+                    <div class="border-l-2 border-sky-500/30 pl-6 relative">
+                        <div class="absolute -left-[9px] top-0 h-4 w-4 rounded-full bg-sky-500"></div>
+                        <h3 class="text-xl font-bold">MAI in Engineering (Integrated Master's)</h3>
+                        <p class="text-sky-400 font-medium">Trinity College Dublin | 2022 — 2027</p>
+                        <p class="text-sm text-gray-500 mt-1">Grade: First Class Honours</p>
+                    </div>
+                    <div class="border-l-2 border-sky-500/30 pl-6">
+                        <h3 class="text-xl font-bold">UNITECH International Program</h3>
+                        <p class="text-sky-400 font-medium">NTNU, Norway | 2025</p>
+                        <p class="text-sm text-gray-400">Focus on leadership and industry collaboration.</p>
+                    </div>
+                </div>
+                
+                <h2 class="text-3xl font-bold mt-16 mb-8 flex items-center gap-3"><i class="fas fa-award text-sky-400 text-2xl"></i> Honors</h2>
+                <div class="glass p-6 rounded-xl">
+                    <h3 class="font-bold text-white">J&J WiSTEM2D Scholar</h3>
+                    <p class="text-sm text-gray-400 mt-2">Recognized for commitment to promoting diversity and inclusion in STEM fields.</p>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-3"><i class="fas fa-briefcase text-sky-400 text-2xl"></i> Work Experience</h2>
+                <div class="space-y-10">
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold">Mechanical Engineering Intern</h3>
+                            <span class="text-xs font-mono bg-white/5 px-2 py-1 rounded">2025</span>
+                        </div>
+                        <p class="text-indigo-400 mb-2">Schlumberger (SLB)</p>
+                        <p class="text-sm text-gray-400">Design of mechanical components using Autodesk Inventor, product validation testing, and SAP documentation.</p>
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold">Structures Engineer (UAV Team)</h3>
+                            <span class="text-xs font-mono bg-white/5 px-2 py-1 rounded">Present</span>
+                        </div>
+                        <p class="text-indigo-400 mb-2">EirSpace</p>
+                        <p class="text-sm text-gray-400">Structural design for fixed-wing humanitarian UAVs for the iMechE UAS Challenge.</p>
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold">Research Assistant</h3>
+                            <span class="text-xs font-mono bg-white/5 px-2 py-1 rounded">2024</span>
+                        </div>
+                        <p class="text-indigo-400 mb-2">Trinity College Dublin (School of Engineering)</p>
+                        <p class="text-sm text-gray-400">PIV data acquisition and hardware modifications to improve measurement accuracy by 15%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 px-8 md:px-24">
+        <h2 class="text-4xl font-black mb-16 text-center">Technical <span class="accent-gradient">Projects</span></h2>
+        
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="group">
+                <div class="aspect-video glass rounded-2xl mb-6 overflow-hidden">
+                    <img src="bike-accessory.jpg" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Smart Bike Project">
+                </div>
+                <h3 class="text-2xl font-bold mb-2">EchoEye: Smart Bike Accessory</h3>
+                <p class="text-gray-400 text-sm mb-4 italic">Finalist for TFI Smarter Travel Awards</p>
+                <p class="text-gray-400 mb-4">LIDAR-based safety device designed to enhance cyclist security in urban environments. Built using Arduino and custom 3D printed components.</p>
+                <div class="flex gap-2">
+                    <span class="text-[10px] font-bold tracking-widest uppercase bg-sky-500/10 text-sky-400 px-3 py-1 rounded">Arduino</span>
+                    <span class="text-[10px] font-bold tracking-widest uppercase bg-sky-500/10 text-sky-400 px-3 py-1 rounded">LIDAR</span>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="aspect-video glass rounded-2xl mb-6 overflow-hidden">
+                    <img src="hvac-simulation.jpg" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Energy Simulation">
+                </div>
+                <h3 class="text-2xl font-bold mb-2">Sustainable Building Services</h3>
+                <p class="text-gray-400 text-sm mb-4 italic">NTNU, Norway</p>
+                <p class="text-gray-400 mb-4">Energy-efficient design for a 2000 m² office facility. Performed comprehensive SIMIEN simulations to optimize HVAC and renewable energy integration.</p>
+                <div class="flex gap-2">
+                    <span class="text-[10px] font-bold tracking-widest uppercase bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded">SIMIEN</span>
+                    <span class="text-[10px] font-bold tracking-widest uppercase bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded">HVAC</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership" class="py-24 px-8 md:px-24 bg-white/5">
+        <h2 class="text-3xl font-bold mb-12">Leadership & <span class="text-sky-400">Impact</span></h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="glass p-8 rounded-2xl">
+                <i class="fas fa-users text-sky-400 text-2xl mb-4"></i>
+                <h3 class="font-bold mb-2">Technical Officer</h3>
+                <p class="text-xs text-gray-500 mb-3">TCD Engineering Society</p>
+                <p class="text-sm text-gray-400">Managing 3D printing facilities for 500+ members and hosting industry Q&A sessions.</p>
+            </div>
+            <div class="glass p-8 rounded-2xl border-b-4 border-indigo-500">
+                <i class="fas fa-globe text-indigo-400 text-2xl mb-4"></i>
+                <h3 class="font-bold mb-2">Ethnic Minority Rep</h3>
+                <p class="text-xs text-gray-500 mb-3">TCDSU Diversity in STEM</p>
+                <p class="text-sm text-gray-400">Advocating for inclusive perspectives and organizing scholarship fundraising events.</p>
+            </div>
+            <div class="glass p-8 rounded-2xl">
+                <i class="fas fa-hand-holding-heart text-rose-400 text-2xl mb-4"></i>
+                <h3 class="font-bold mb-2">Mathematics Instructor</h3>
+                <p class="text-xs text-gray-500 mb-3">DMNAPK Girls' Safe Home</p>
+                <p class="text-sm text-gray-400">Creating STEM lesson plans for 29 students in a positive, supportive environment.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-24 px-8 text-center">
+        <h2 class="text-4xl font-black mb-4">Get In Touch</h2>
+        <p class="text-gray-400 mb-8">Currently open to collaborations in Aerospace & Sustainable Design.</p>
+        <a href="mailto:mansurl@tcd.ie" class="text-2xl font-bold hover:text-sky-400 transition underline underline-offset-8 decoration-sky-500">mansurl@tcd.ie</a>
+        <div class="mt-12 flex justify-center gap-6 text-gray-500">
+            <a href="#" class="hover:text-white"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="hover:text-white"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+        <p class="mt-16 text-[10px] tracking-[0.2em] uppercase text-gray-600">Labiba Mansur &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
